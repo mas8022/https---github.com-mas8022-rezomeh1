@@ -1,6 +1,6 @@
-import './them-page.css'
+import './them-page-style.css'
 import React from 'react'
-import ThemPageImages from './them-page-images/them-page-images-app'
+import ThemPageImages from '../them-page-images/them-page-images-app'
 
 export default function ThemPage(imageThemData) {
 

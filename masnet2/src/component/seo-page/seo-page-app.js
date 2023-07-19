@@ -1,4 +1,4 @@
-import "./seo-style.css"
+import './seo-page-style.css'
 import React from 'react'
 
 export default function SeoPage() {

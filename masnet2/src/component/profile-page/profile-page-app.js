@@ -1,4 +1,4 @@
-import "./profile-style.css"
+import "./profile-page-style.css"
 import React from 'react'
 
 export default function ProfilePage() {

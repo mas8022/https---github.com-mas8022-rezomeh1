@@ -1,5 +1,4 @@
-import './them-page-images.style.css'
-
+import './them-page-images-style.css'
 import React from 'react'
 
 export default function ThemPageImages({name, imageSource}) {

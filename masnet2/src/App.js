@@ -1,11 +1,12 @@
 import './App.css';
-import Navbar from "./navbar/navbar-app"
-import WelcomePage from "./welcom-page/welcome-page-app"
-import SeoPage from './seo-page/seo-page-app';
-import ProfilePage from './profile-page/profile-app';
-import ParallaxPage from './parallax-page/parallax-page-app'
-import LimitlessPage from './limitless-page/limitless-page-app';
-import ThemPage from './them-page/them-page';
+import Navbar from "./component/navbar/navbar-app";
+import WelcomePage from './component/welcome-page/welcome-page-app';
+import SeoPage from './component/seo-page/seo-page-app';
+import ProfilePage from "./component/profile-page/profile-page-app";
+import ParallaxPage from './component/parallax-page/parallax-page-app';
+import LimitlessPage from './component/limitless-page/limitless-page-app';
+import ThemPage from './component/them-page/them-page-app';
+
 
 function App() {
   return (
