@@ -6,6 +6,7 @@ import ProfilePage from "./component/profile-page/profile-page-app";
 import ParallaxPage from './component/parallax-page/parallax-page-app';
 import LimitlessPage from './component/limitless-page/limitless-page-app';
 import ThemPage from './component/them-page/them-page-app';
+import CustomersPage from './component/customers/customers-page-app';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <ParallaxPage></ParallaxPage>
       <LimitlessPage></LimitlessPage>
       <ThemPage></ThemPage>
+      <CustomersPage></CustomersPage>
     </div>
   );
 }

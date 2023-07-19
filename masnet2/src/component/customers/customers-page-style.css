@@ -1,0 +1,42 @@
+:root{
+  --first-color: #fff;
+  --second-color: #000;
+  --third-color: rgb(123, 0, 255);
+}
+.customers-page{
+    width: 100%;
+    height: 70vh;
+    background: url('https://cdn.britannica.com/32/93932-050-B213E0FB/ocean-water-beach-The-Bahamas-Grand-Bahama.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-customers-page{
+    width: 60%;
+    height: 40rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-customers-page h3{
+    color: var(--first-color);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.flex-customers-page p{
+    color: var(--first-color);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.image-customers-page{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
