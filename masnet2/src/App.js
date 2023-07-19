@@ -7,6 +7,7 @@ import ParallaxPage from './component/parallax-page/parallax-page-app';
 import LimitlessPage from './component/limitless-page/limitless-page-app';
 import ThemPage from './component/them-page/them-page-app';
 import CustomersPage from './component/customers/customers-page-app';
+import ClientsPage from './component/clients-page/clients-page-app';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <LimitlessPage></LimitlessPage>
       <ThemPage></ThemPage>
       <CustomersPage></CustomersPage>
+      <ClientsPage></ClientsPage>
     </div>
   );
 }
