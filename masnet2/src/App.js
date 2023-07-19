@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./navbar/navbar-app"
+import WelcomePage from "./welcom-page/welcome-page-app"
+import SeoPage from './seo-page/seo-page-app';
+import ProfilePage from './profile-page/profile-app';
+import ParallaxPage from './parallax-page/parallax-page-app'
+import LimitlessPage from './limitless-page/limitless-page-app';
+import ThemPage from './them-page/them-page';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <WelcomePage></WelcomePage>
+      <SeoPage></SeoPage>
+      <ProfilePage></ProfilePage>
+      <ParallaxPage></ParallaxPage>
+      <LimitlessPage></LimitlessPage>
+      <ThemPage></ThemPage>
     </div>
   );
 }

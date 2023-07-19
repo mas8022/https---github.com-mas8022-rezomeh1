@@ -1,0 +1,34 @@
+:root{
+    --first-color: #fff;
+    --second-color: #000;
+    --third-color: rgb(123, 0, 255);
+  }
+  .box-image{
+      width: 37.4rem;
+      height: 26rem;
+      background: blue;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      transition: all ease-out 0.3s;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover !important;
+      cursor: pointer;
+  }
+  .box-image:hover {
+      box-shadow: inset -20px -86px 125px -20px #000;
+  }
+  .box-image p{
+      font-size: 3rem;
+      font-weight: 400;
+      color: var(--first-color);
+      visibility: hidden;
+      opacity: 0%;
+      transition: all ease-out 0.3s;
+  }
+  .box-image:hover.box-image p{
+      visibility: visible;
+      opacity: 100%;
+      transform: translateY(-7rem);
+  }
