@@ -26,6 +26,14 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.flex-Clients a{
+    opacity: 50%;
+    transition: all ease-out 0.3s;
+}
+.flex-Clients a:hover{
+    opacity: 100%;
+    transform: translateY(-1rem);
+}
 .flex-Clients div{
     width: 9rem;
     height: 10rem;

@@ -8,6 +8,7 @@ import LimitlessPage from './component/limitless-page/limitless-page-app';
 import ThemPage from './component/them-page/them-page-app';
 import CustomersPage from './component/customers/customers-page-app';
 import ClientsPage from './component/clients-page/clients-page-app';
+import DownloadPage from './component/download-page/download-page-app';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <ThemPage></ThemPage>
       <CustomersPage></CustomersPage>
       <ClientsPage></ClientsPage>
+      <DownloadPage></DownloadPage>
     </div>
   );
 }
