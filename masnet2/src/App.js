@@ -9,6 +9,7 @@ import ThemPage from './component/them-page/them-page-app';
 import CustomersPage from './component/customers/customers-page-app';
 import ClientsPage from './component/clients-page/clients-page-app';
 import DownloadPage from './component/download-page/download-page-app';
+import FooterApp from './component/footer/footer-app';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <CustomersPage></CustomersPage>
       <ClientsPage></ClientsPage>
       <DownloadPage></DownloadPage>
+      <FooterApp></FooterApp>
     </div>
   );
 }
